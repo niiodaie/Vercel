@@ -8,8 +8,6 @@
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
-  ...
-}
 }
   "dependencies": {
     "i18next": "^23.7.8",
