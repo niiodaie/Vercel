@@ -1,14 +1,10 @@
- import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  root: '.', // project root
+  root: '.', // Make sure this points to correct root (optional if default)
   build: {
-    outDir: 'dist', // default, fine for Vercel
-  },
-  server: {
-    port: 5173,
-    host: '0.0.0.0'
+    outDir: 'dist',
   }
-})
+});
