@@ -9,7 +9,6 @@
     "preview": "vite preview"
   }
 }
-  },
   "dependencies": {
   "i18next": "^22.0.0",
   "react-i18next": "^13.0.0",
